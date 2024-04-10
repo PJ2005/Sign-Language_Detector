@@ -14,8 +14,8 @@ This project facilitates seamless interaction for individuals with hearing impai
 </ul>
 
 ## Basic Working
-&emsp;**1. Data Processing:** Video frames are extracted and processed using **OpenCV and Mediapipe**. This involves ***detecting key points*** indicative of&emsp; sign language gestures.<br/>
-&emsp;**2. Model Training:** A **Long Short-Term Memory (LSTM) model**, facilitated by Keras, is trained on the processed data. This model learns to &emsp;***recognize patterns*** in the key points extracted from sign language gestures.<br/>
+&emsp;**1. Data Processing:** Video frames are extracted and processed using **OpenCV and Mediapipe**. This involves ***detecting key points*** indicative &emsp;of sign language gestures.<br/>
+&emsp;**2. Model Training:** A **Long Short-Term Memory (LSTM) model**, facilitated by Keras, is trained on the processed data. This model learns to &emsp; ***recognize patterns*** in the key points extracted from sign language gestures.<br/>
 &emsp;**3. Real-time Prediction:** With the trained model, ***real-time sign language gestures*** are captured via webcam and passed through the model &emsp;for interpretation. The model predicts the ***most probable gesture*** performed by the user.<br/>
 
 ## Detailed WorkFlow
