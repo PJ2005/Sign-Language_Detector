@@ -1,8 +1,6 @@
 # Sign-Language_Detector
 This repository contains the necessary files to build and run a Sign Language Detector<br/>
-<br/>
-
-> Goal: To Create a real time **Sign Language Detection** using sequences.<br/>
+> Goal: To Create a real time **Sign Language Detection** using sequences.<br/><br/>
 
 This project facilitates seamless interaction for individuals with hearing impairments and speech disabilities by enabling the detection and interpretation of sign language gestures through the lens of Machine Learning.
 
