@@ -46,6 +46,8 @@ This project facilitates seamless interaction for individuals with hearing impai
   <li>Pass the captured video frames to the trained model to predict the most probable sign gesture performed by the user.</li>
 </ol>
 
+## Notion Link
+https://checker-sunfish-971.notion.site/Sign-Language-Detection-afc9815c408644569a52d1bfb6994f93
 
 ## Output
 ![image](https://github.com/PJ2005/Sign-Language_Detector/assets/93432926/6d29c162-0faa-411f-bcfe-9356d611ada5)
