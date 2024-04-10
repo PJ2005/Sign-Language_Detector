@@ -4,6 +4,15 @@ This repository contains the necessary files to build and run a Sign Language De
 
 This project facilitates seamless interaction for individuals with hearing impairments and speech disabilities by enabling the detection and interpretation of sign language gestures through the lens of Machine Learning.
 
+## Team Members
+<ol>
+  <li>23011102091 - Sejavarthana Anbalagan</li>
+  <li>23011102084 - S Viswapriya</li>
+  <li>23011102080 - S Shrivarshni</li>
+  <li>23011102094 - S Shirley Claire</li>
+  <li>23011102066 - Pratham Jain</li>
+</ol>
+
 ## Dependencies
 <ul>
   <li>OpenCV</li>
@@ -17,6 +26,8 @@ This project facilitates seamless interaction for individuals with hearing impai
 &emsp;**1. Data Processing:** Video frames are extracted and processed using **OpenCV and Mediapipe**. This involves ***detecting key points*** indicative of sign language gestures.<br/>
 &emsp;**2. Model Training:** A **Long Short-Term Memory (LSTM) model**, facilitated by Keras, is trained on the processed data. This model learns to ***recognize patterns*** in the key points extracted from sign language gestures.<br/>
 &emsp;**3. Real-time Prediction:** With the trained model, ***real-time sign language gestures*** are captured via webcam and passed through the model for interpretation. The model predicts the ***most probable gesture*** performed by the user.<br/>
+
+
 
 ## Detailed WorkFlow
 <ol>
@@ -34,3 +45,8 @@ This project facilitates seamless interaction for individuals with hearing impai
   <li>Capture real-time video from the webcam using [OpenCV].</li>
   <li>Pass the captured video frames to the trained model to predict the most probable sign gesture performed by the user.</li>
 </ol>
+
+
+## Output
+![image](https://github.com/PJ2005/Sign-Language_Detector/assets/93432926/6d29c162-0faa-411f-bcfe-9356d611ada5)
+
